@@ -40,7 +40,9 @@ const RecipeById = () => {
             </center>
             <div className="flex">
               <div className="image">
-                <img src={data.strMealThumb} alt={data.strMeal} />
+                <a href={data.strYoutube}>
+              <img src={data.strMealThumb} alt={data.strMeal} />
+              </a>
               </div>
               <div className="content">
                 <button className="button-btn" onClick={handleShowIngredients}>
