@@ -40,7 +40,7 @@ const RecipeById = () => {
             </center>
             <div className="flex">
               <div className="image">
-                <a href={data.strYoutube}>
+                <a href={data.strYoutube} target="--blank">
               <img src={data.strMealThumb} alt={data.strMeal} />
               </a>
               </div>
